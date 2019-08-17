@@ -1,0 +1,198 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	background: #fff;
+	color: #333;
+	font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "MS Pゴシック", "MS PGothic", sans-serif;
+	font-size: 1.6rem;
+	font-weight: 500;
+	line-height: 1.6;
+	overflow-wrap: break-word;
+	overflow-x: hidden;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+main {
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+em,
+small,
+strong,
+sub,
+sup,
+mark,
+del,
+ins,
+strike,
+abbr,
+dfn,
+blockquote,
+q,
+cite,
+code,
+pre,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+div,
+section,
+article,
+main,
+aside,
+nav,
+header,
+hgroup,
+footer,
+img,
+figure,
+figcaption,
+address,
+time,
+audio,
+video,
+canvas,
+iframe,
+details,
+summary,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+	outline: none;
+}
+
+img {
+	border: none;
+	height: auto;
+	max-width: 100%;
+	vertical-align: top;
+}
+
+video {
+	height: auto;
+	max-width: 100%;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace, sans-serif;
+	font-size: inherit;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+/* header */
+#header {
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 20;
+	margin-top: 60px;
+}
+
+#header > .inner {
+	align-items: center;
+	display: flex;
+	height: 800px;
+	padding-bottom: 0;
+    padding-top: 0;
+    width: 980px;
+    margin: 0 auto;
+	max-width: 100%;
+	background-image: url(../img/メインビジュアル.png);
+}
+
+.header-logo {
+	margin-right: auto;
+}
+
+.header-logo a {
+	transition: all 0.3s ease 0s;
+}
+
+.header-logo a:hover {
+	opacity: 0.6;
+}
+
+.header-logo img {
+	width: 200px;
+}
+
+.header-nav ul {
+	align-items: center;
+	display: flex;
+}
+
+.header-nav li {
+	margin-right: 52px;
+}
+
+.header-nav li:last-child {
+	margin-right: 0;
+}
+
+.header-nav li > a {
+	color: #333;
+	display: block;
+	text-decoration: none;
+	transition: all 0.3s ease 0s;
+}
+
+.header-nav li > a:hover {
+	opacity: 0.6;
+}
