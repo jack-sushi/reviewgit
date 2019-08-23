@@ -1,0 +1,343 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	background: #fff;
+	color: #333;
+	font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "MS Pゴシック", "MS PGothic", sans-serif;
+	font-size: 1.6rem;
+	font-weight: 500;
+	line-height: 1.6;
+	overflow-wrap: break-word;
+	overflow-x: hidden;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section,
+main {
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+em,
+small,
+strong,
+sub,
+sup,
+mark,
+del,
+ins,
+strike,
+abbr,
+dfn,
+blockquote,
+q,
+cite,
+code,
+pre,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+div,
+section,
+article,
+main,
+aside,
+nav,
+header,
+hgroup,
+footer,
+img,
+figure,
+figcaption,
+address,
+time,
+audio,
+video,
+canvas,
+iframe,
+details,
+summary,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+	outline: none;
+}
+
+img {
+	border: none;
+	height: auto;
+	max-width: 100%;
+	vertical-align: top;
+}
+
+video {
+	height: auto;
+	max-width: 100%;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace, sans-serif;
+	font-size: inherit;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+/* header */
+
+header {
+    left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 20;
+	margin-top: 0px;
+	background-image: url(../img/ヘッダー背景.png);
+	margin-bottom: 89px;
+}
+
+header h2 {
+	font-size: 46px;
+	padding-top: 190.5px;
+	padding-bottom: 74px;
+	margin: auto;
+}
+
+.inner {
+	align-items: center;
+	display: flex;
+	height: 360px;
+	padding-bottom: 0;
+    padding-top: 0;
+    width: 980px;
+    margin: 0 auto;
+	max-width: 100%;
+	position: relative;
+}
+
+.header-bar {
+	position: absolute;
+	background-color: #ffffff;
+	box-shadow: 4px 4px 1px 0 rgba(0, 0, 0, 0.16);
+	
+	width: 100%;
+	display: flex;
+	top: 60px;
+}
+
+.header-logo {
+	margin-right: auto;
+}
+
+.header-logo a {
+	transition: all 0.3s ease 0s;
+}
+
+.header-logo a:hover {
+	opacity: 0.6;
+}
+
+.header-logo a img {
+	width: 168px;
+	padding-top: 21px;
+	padding-bottom: 22px;
+	padding-left: 37px;
+}
+
+.header-nav ul {
+	align-items: center;
+	display: flex;
+}
+
+.header-nav li {
+	margin-right: 52px;
+}
+
+.header-nav li:last-child {
+	margin-right: 0;
+}
+
+.header-nav li > a {
+	color: #333;
+	display: block;
+	text-decoration: none;
+	transition: all 0.3s ease 0s;
+}
+
+.header-nav li > a:hover {
+	opacity: 0.6;
+}
+
+.header-nav li > p {
+	font-size: 10px;
+}
+
+.header-nav a::after {
+	content: "|";
+	margin-left: 43.5px;
+	color: #000000;
+}
+
+.header-nav li:last-child > a::after {
+	content: "";
+}
+
+.header-bar {
+	margin-bottom: 200px;
+	display: flex;
+}
+/* /header-end */
+
+/* form */
+.form {
+	text-align: center;
+	margin-bottom: 30px;
+}
+/* /form */
+
+
+/* footer */
+
+#footer{
+    background-color: #333333;
+    color: #ffffff;
+    height: 260px;
+	text-align: center;
+}
+
+#footer p {
+    margin-top: 24px;
+    margin-bottom: 18px;
+	width: 100%;
+	font-weight: bold;
+}
+
+#footer > .inner {
+	padding-bottom: 0;
+    padding-top: 0;
+    width: 980px;
+    margin: 0 auto;
+    max-width: 100%;
+	height: 260px;
+	display: block;
+}
+
+.footer_nav {
+	width: 100%;
+	padding-top: 36px;
+	font-size: 10px;
+}
+
+.footer_nav ul {
+	text-align: center;
+}
+
+.footer_nav li {
+	margin-right: 36px;
+	display: inline-block;
+}
+
+.footer_nav li:last-child {
+	margin-right: 0;
+}
+
+.footer_nav li:last-child > a::after {
+	content: "";
+}
+
+.footer_nav li > a {
+	color: #ffffff;
+	display: block;
+	text-decoration: none;
+	transition: all 0.3s ease 0s;
+}
+
+.footer_nav li > a:hover {
+	opacity: 0.6;
+}
+
+.footer_nav li > a::after {
+	content: "|";
+	margin-left: 36.5px;
+	color: #ffffff;
+}
+
+.icon-list a{
+    padding:1rem;
+}
+
+.fb_btn {
+	margin-top: 18px;
+	display: inline-block;
+}
+
+.fb_btn a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+	width: 185px;
+    color: #000;
+    transition: 0.5s;
+    margin: 0 auto;
+    padding: 10px 0;
+	text-align: center;
+	font-size: 13px;
+	background: #fff url(../img/黒アロー.svg) no-repeat center right 4px/16px 16px;
+}
+
+.copyright {
+	font-size: 9px;
+}
+
+/* /footer */
