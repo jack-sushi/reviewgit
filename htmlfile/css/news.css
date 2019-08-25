@@ -107,6 +107,9 @@ td {
 
 a {
 	color: inherit;
+}                      
+
+a:focus-ring {
 	outline: none;
 }
 
@@ -143,15 +146,16 @@ header {
 	width: 100%;
 	z-index: 20;
 	margin-top: 0px;
-	background-image: url(../img/ヘッダー背景.png);
+	background-image: url(../img/header_background.png);
 	margin-bottom: 79px;
 }
 
-header h2 {
+.news__MainTitle {
 	font-size: 46px;
-	padding-top: 190.5px;
-	padding-bottom: 74px;
+	padding-bottom: 120px;
 	margin: auto;
+	text-align: center;
+	margin-top: -200px;
 }
 
 .inner {
@@ -331,6 +335,7 @@ header h2 {
 .pagination {
 	text-align: center;
 	margin-bottom: 92px;
+	margin-top: 250px;
 }
 
 .pagination > .inner {
@@ -347,7 +352,7 @@ header h2 {
     color: #fff;
     padding: 10px 0;
 	font-size: 13px;
-	background: #D4004E url(../img/白アロー.svg) no-repeat center right 4px/16px 16px;
+	background: #D4004E url(../img/white_arrow.svg) no-repeat center right 4px/16px 16px;
 	font-weight: bold;
 }
 
@@ -375,7 +380,7 @@ header h2 {
 /* pagenation-end */
 /* footer */
 
-#footer{
+footer{
     background-color: #333333;
     color: #ffffff;
     height: 260px;
@@ -383,14 +388,14 @@ header h2 {
 	margin-top: 90px;
 }
 
-#footer p {
+footer p {
     margin-top: 24px;
     margin-bottom: 18px;
 	width: 100%;
 	font-weight: bold;
 }
 
-#footer > .inner {
+footer > .inner {
 	padding-bottom: 0;
     padding-top: 0;
     width: 980px;
@@ -460,7 +465,7 @@ header h2 {
     padding: 10px 0;
 	text-align: center;
 	font-size: 13px;
-	background: #fff url(../img/黒アロー.svg) no-repeat center right 4px/16px 16px;
+	background: #fff url(../img/brack_arrow.svg) no-repeat center right 4px/16px 16px;
 
 }
 

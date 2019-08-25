@@ -107,6 +107,9 @@ td {
 
 a {
 	color: inherit;
+}  
+
+a:focus-ring {
 	outline: none;
 }
 
@@ -143,15 +146,16 @@ header {
 	width: 100%;
 	z-index: 20;
 	margin-top: 0px;
-	background-image: url(../img/ヘッダー背景.png);
+	background-image: url(../img/header_background.png);
 	margin-bottom: 79px;
 }
 
-header h2 {
+.identity__MainTitle {
 	font-size: 46px;
-	padding-top: 190.5px;
 	padding-bottom: 74px;
 	margin: auto;
+	text-align: center;
+	margin-top: -200px;
 }
 
 .inner {
@@ -239,7 +243,7 @@ header h2 {
 
 /* identity */
 .identity {
-	height: 600px;
+	height: 750px;
 }
 
 .identity .identity-title {
@@ -320,14 +324,14 @@ header h2 {
 }
 
 .company-category::after {
-	content: url(../img/パス\ 74.png);
+	content: url(../img/border_bar.png);
 	color: #707070;
 	padding-left: 22px;
 	padding-right: 30.1px;
 }
 
 .place::after {
-		content: url(../img/長い棒.png);
+		content: url(../img/longbar.png);
 }
 
 .btn {
@@ -442,7 +446,7 @@ header h2 {
 
 /* footer */
 
-#footer{
+footer{
     background-color: #333333;
     color: #ffffff;
     height: 260px;
@@ -450,14 +454,14 @@ header h2 {
 	margin-top: 90px;
 }
 
-#footer p {
+footer p {
     margin-top: 24px;
     margin-bottom: 18px;
 	width: 100%;
 	font-weight: bold;
 }
 
-#footer > .inner {
+footer > .inner {
 	padding-bottom: 0;
     padding-top: 0;
     width: 980px;
@@ -527,7 +531,7 @@ header h2 {
     padding: 10px 0;
 	text-align: center;
 	font-size: 13px;
-	background: #fff url(../img/黒アロー.svg) no-repeat center right 4px/16px 16px;
+	background: #fff url(../img/brack_arrow.svg) no-repeat center right 4px/16px 16px;
 
 }
 

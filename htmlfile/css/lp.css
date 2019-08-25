@@ -107,6 +107,9 @@ td {
 
 a {
 	color: inherit;
+}          
+
+a:focus-ring {
 	outline: none;
 }
 
@@ -255,7 +258,7 @@ ol {
 
 .btn {
 	text-decoration: none;
-	background: transparent url(../img/白アロー.svg) no-repeat center right 4px/16px 16px;
+	background: transparent url(../img/white_arrow.svg) no-repeat center right 4px/16px 16px;
     display: flex;
     justify-content: center;
     width: 185px;
@@ -350,7 +353,7 @@ ol {
 
 /* footer */
 
-#footer{
+footer{
     background-color: #333333;
     color: #ffffff;
     height: 260px;
@@ -358,14 +361,14 @@ ol {
 	margin-top: 90px;
 }
 
-#footer p {
+footer p {
     margin-top: 24px;
     margin-bottom: 18px;
 	width: 100%;
 	font-weight: bold;
 }
 
-#footer > .inner {
+footer > .inner {
 	padding-bottom: 0;
     padding-top: 0;
     width: 980px;
@@ -435,7 +438,7 @@ ol {
     padding: 10px 0;
 	text-align: center;
 	font-size: 13px;
-	background: #fff url(../img/黒アロー.svg) no-repeat center right 4px/16px 16px;
+	background: #fff url(../img/brack_arrow.svg) no-repeat center right 4px/16px 16px;
 }
 
 .copyright {
