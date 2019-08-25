@@ -139,7 +139,7 @@ ol {
 }
 
 /* header */
-#header {
+header {
 	left: 0;
 	top: 0;
 	width: 100%;
@@ -148,7 +148,7 @@ ol {
 	background-color: #F2F3F7;
 }
 
-#header > .inner {
+header > .inner {
 	align-items: center;
 	display: flex;
 	height: 800px;
@@ -157,7 +157,7 @@ ol {
     width: 980px;
     margin: 0 auto;
 	max-width: 100%;
-	background-image: url(../img/メインビジュアル.png);
+	background-image: url(../img/mainvisual.png);
 }
 
 .header__bar {
