@@ -107,6 +107,9 @@ td {
 
 a {
 	color: inherit;
+}  
+
+a:focus-ring {
 	outline: none;
 }
 
