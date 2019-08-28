@@ -107,6 +107,9 @@ td {
 
 a {
 	color: inherit;
+}    
+
+a:focus-ring {
 	outline: none;
 }
 
@@ -135,14 +138,14 @@ ol {
 	list-style: none;
 }
 
-#footer{
+footer{
     background-color: #333333;
     color: #ffffff;
     height: 260px;
     text-align: center;
 }
 
-#footer p {
+footer p {
     margin-top: 24px;
     margin-bottom: 18px;
     width: 100%;
