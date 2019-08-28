@@ -1,4 +1,5 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
@@ -42,7 +43,7 @@
         </div>
     </header>
 
-    <section id="about">
+    <section class="about">
         <div class="inner">
             <img src="img/about.png" alt="" class="about_title">
             <div class="sentence">
@@ -58,17 +59,19 @@
         </div>
     </section>
 
-    <section id="detail">
+    <section class="detail">
         <div class="inner">
             <img src="img/SERVICE&PRODUCT.png" alt="">
             <div class="service_wrapper wrapper_first">
                 <div class="logo_image">
-                    <img src="img/logo-switch_science@2x.png" alt="">
+                    <p class="image_wrapper">
+                        <img src="img/logo-switch_science@2x.png" alt="" class="sci_image">
+                    </p>
                 </div>
 
                 <div class="service__detail">
-                    <h3>株式会社スイッチサイエンス</h3>
-                    <p>最先端のテクノロジーを、より多くの人々が道具とし<br>
+                    <h3 class="company_name">株式会社スイッチサイエンス</h3>
+                    <p class="company_detail">最先端のテクノロジーを、より多くの人々が道具とし<br>
                         て当たり前に使える世界を目指して活動しています…</p>
 
                     <div class="btn_wrapper">
@@ -79,8 +82,8 @@
 
             <div class="service_wrapper">
                 <div class="service__detail">
-                    <h3>株式会社スイッチエデュケーション</h3>
-                    <p>すべての子供にSTEM教育を実践することを目的に活<br>
+                    <h3 class="company_name">株式会社スイッチエデュケーション</h3>
+                    <p class="company_detail">すべての子供にSTEM教育を実践することを目的に活<br>
                         動しています。考える、作る、発表するプロセスを…</p>
 
                     <div class="btn_wrapper">
@@ -88,17 +91,21 @@
                     </div>
                 </div>
                 <div class="logo_image">
-                    <img src="img/logo-switch_education@2x.png" alt="">
+                    <p class="image_wrapper">
+                        <img src="img/logo-switch_education@2x.png" alt="" class="edu_image">
+                    </p>
                 </div>
             </div>
 
             <div class="service_wrapper">
                 <div class="logo_image">
-                    <img src="img/unko-btn.png" alt="">
+                    <p class="image_wrapper">
+                        <img src="img/unko-btn.png" alt="" class="unko_image">
+                    </p>
                 </div>
                 <div class="service__detail">
-                    <h3>うんこボタン</h3>
-                    <p>赤ちゃんのうんちとおしっこの記録ができるボタンで<br>
+                    <h3 class="company_name">うんこボタン</h3>
+                    <p class="company_detail">赤ちゃんのうんちとおしっこの記録ができるボタンで<br>
                         す。子育て世代をちょっとした工夫でお手伝いする…</p>
                     <div class="btn_wrapper">
                         <a href="#" class="btn">詳しくはこちら</a>
@@ -108,8 +115,8 @@
 
             <div class="service_wrapper">
                 <div class="service__detail">
-                    <h3>lot受託開発</h3>
-                    <p>IoT製品の開発には、ソフトウェアからハードウェア<br>
+                    <h3 class="company_name">lot受託開発</h3>
+                    <p class="company_detail">IoT製品の開発には、ソフトウェアからハードウェア<br>
                         まで様々な技術要素に関するノウハウが必要です。...</p>
 
                     <div class="btn_wrapper">
@@ -117,47 +124,56 @@
                     </div>
                 </div>
                 <div class="logo_image">
-                    <img src="img/lot-logo@2x.png" alt="">
+                    <p class="image_wrapper">
+                        <img src="img/lot2.png" alt="" class="lot_image">
+                    </p>
                 </div>
             </div>
         </div>
 
     </section>
 
-    <section id="news">
+    <section class="news">
         <div class="inner">
             <img src="img/news.png" alt="">
             <ul class="news__list">
                 <li class="news__item">
-                    <span class="category">スイッチエデュケーション</span>
+                    <div class="se-category-label">
+                        <span class="se_category">スイッチエデュケーション</span>
+                    </div>
                     <time class="date">2019.04.24</time>
                     <p>|</p>
                     <span class="title">株式会社144Lab（以下144Lab、本社：東京都新宿区）はInsightSiP SAS（以下InsightSiP….</span>
                 </li>
 
                 <li class="news__item">
-                    <span class="category">スイッチエデュケーション</span>
+                    <div class="lab-category-label">
+                        <span class="lab-category">144lab</span>
+                    </div>
                     <time class="date">2019.04.24</time>
                     <p>|</p>
                     <span class="title">株式会社144Lab（以下144Lab、本社：東京都新宿区）はInsightSiP SAS（以下InsightSiP….</span>
                 </li>
 
                 <li class="news__item">
-                    <span class="category">スイッチエデュケーション</span>
+                    <div class="ss-category-label">
+                        <span class="ss-category">スイッチサイエンス</span>
+                    </div>
                     <time class="date">2019.04.24</time>
                     <p>|</p>
                     <span class="title">株式会社144Lab（以下144Lab、本社：東京都新宿区）はInsightSiP SAS（以下InsightSiP….</span>
                 </li>
 
                 <li class="news__item">
-                    <span class="category">スイッチエデュケーション</span>
+                    <div class="unko-category-label">
+                        <span class="unko-category">うんこボタン</span>
+                    </div>
                     <time class="date">2019.04.24</time>
                     <p>|</p>
                     <span class="title">株式会社144Lab（以下144Lab、本社：東京都新宿区）はInsightSiP SAS（以下InsightSiP….</span>
                 </li>
-
             </ul>
-            <div class="btn_wrapper">
+            <div class="jump_btn_wrapper">
                 <a href="#" class="btn">一覧</a>
             </div>
         </div>

@@ -148,13 +148,16 @@ header {
 	margin-top: 0px;
 	background-image: url(../img/header_background.png);
 	margin-bottom: 133px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 360px;
 }
 
 .service__MainTitle {
 	font-size: 46px;
-	padding-bottom: 74px;
+	padding-bottom: 150px;
 	margin: auto;
-	margin-top: -200px;
+	margin-top: -250px;
 	text-align: center;
 }
 
@@ -192,9 +195,7 @@ header {
 }
 
 .header__logo a img {
-	width: 168px;
-	padding-top: 21px;
-	padding-bottom: 22px;
+	padding-top: 27px;
 	padding-left: 37px;
 }
 
@@ -204,7 +205,9 @@ header {
 }
 
 .header__nav li {
-	margin-right: 52px;
+    margin-right: 52px;
+    padding-top: 25px;
+    padding-bottom: 23px;
 }
 
 .header__nav li:last-child {
@@ -216,6 +219,15 @@ header {
 	display: block;
 	text-decoration: none;
 	transition: all 0.3s ease 0s;
+	font-weight: bold;
+}
+
+.header__nav li:nth-child(3) > a {
+	color: #D4004E;
+}
+
+.header__nav li:nth-child(3) > p {
+	color: #D4004E;
 }
 
 .header__nav li > a:hover {
@@ -236,6 +248,14 @@ header {
 	content: "";
 }
 
+.header__nav li:active {
+	color: #D4004E;
+}
+
+.header__nav li > a:active {
+	color: #D4004E;
+}
+
 .header-bar {
 	margin-bottom: 200px;
 	display: flex;
@@ -253,6 +273,10 @@ header {
     margin-left: 150px;
 	margin-right: 111px;
 	height: 580px;
+}
+
+.second_content {
+	margin-top: 330px;
 }
 
 .mark {
@@ -448,7 +472,7 @@ footer > .inner {
     padding: 10px 0;
 	text-align: center;
 	font-size: 13px;
-	background: #fff url(../img/brack_arrow.svg) no-repeat center right 4px/16px 16px;
+	background: #fff url(../img/black_arrow.svg) no-repeat center right 4px/16px 16px;
 
 }
 
