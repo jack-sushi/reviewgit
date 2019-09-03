@@ -784,6 +784,8 @@ ol {
 .ranking__itemImage {
   width: 78px;
   height: 74px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .ranking__item_title {
@@ -817,6 +819,11 @@ ol {
 .ranking__numberLabel {
   margin: 0;
   font-weight: bold;
+}
+
+.ranking__itemLink:hover .ranking__itemImage {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .follow {
@@ -1047,6 +1054,8 @@ ol {
   width: 79px;
   height: 82px;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .submenu__page {
@@ -1134,6 +1143,11 @@ ol {
   line-height: 20px;
   font-weight: 500;
   padding-left: 12px;
+}
+
+.Item_link:hover .submenu__Image {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .footer {
