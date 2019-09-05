@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SANGO</title>
-    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script>
+        FontAwesomeConfig = { searchPseudoElements: true };
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <!-- <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -329,7 +333,7 @@
                         <li class="ranking__item">
                             <a href="#" class="ranking__itemLink">
                                 <div class="ranking__numberLabel">
-                                    <p class="ranking__number">4</p>
+                                    <p class="ranking__number ranking__lastNumber">4</p>
                                 </div>
                                 <img src="img/submenu04.jpg" alt="" class="ranking__itemImage">
                                 <div class="ranking__sentence">
@@ -376,18 +380,20 @@
                         <i class="fas fa-clock"></i>
                         ARCHIVE
                     </p>
-                    <select class="log__selected">
-                        <option value="1" class="log__selectedFirst">月を選択</option>
-                        <option value="2">2019年3月</option>
-                        <option value="3">2018年9月</option>
-                        <option value="4">2017年7月</option>
-                        <option value="5">2017年3月</option>
-                        <option value="6">2016年9月</option>
-                        <option value="7">2013年9月</option>
-                        <option value="8">2013年8月</option>
-                        <option value="9">2012年9月</option>
-                        <option value="10">2012年8月</option>
-                    </select>
+                    <div class="log__icon">
+                        <select class="log__selected">
+                            <option value="1" class="log__selectedFirst">月を選択</option>
+                            <option value="2">2019年3月</option>
+                            <option value="3">2018年9月</option>
+                            <option value="4">2017年7月</option>
+                            <option value="5">2017年3月</option>
+                            <option value="6">2016年9月</option>
+                            <option value="7">2013年9月</option>
+                            <option value="8">2013年8月</option>
+                            <option value="9">2012年9月</option>
+                            <option value="10">2012年8月</option>
+                        </select>
+                    </div>
 
                 </div>
 
@@ -419,17 +425,17 @@
                             </li>
                             <li class="category_menu__list">
                                 <a href="#" class="category_menu__listLink">
-                                <i class="fas fa-angle-right"></i>
-                                リスト
-                                <span class="category__number">1</span>
-                            </a>
+                                    <i class="fas fa-angle-right"></i>
+                                    リスト
+                                    <span class="category__number">1</span>
+                                </a>
                             </li>
                             <li class="category_menu__list">
                                 <a href="#" class="category_menu__listLink">
-                                <i class="fas fa-angle-right"></i>
-                                見出し
-                                <span class="category__number">1</span>
-                            </a>
+                                    <i class="fas fa-angle-right"></i>
+                                    見出し
+                                    <span class="category__number">1</span>
+                                </a>
                             </li>
                         </ul>
                         <a href="#" class="category_menu__subtitle">
