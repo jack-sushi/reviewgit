@@ -52,12 +52,13 @@
     <section class="MainVisual">
         <div class="inner">
             <div class="MainVisual__wrapper">
-                <img src="img/mainvisual_image.png" alt="" class="MainVisual__img">
+                <div class="MainVisual__imgLabel">
+                    <img src="img/mainvisual_image.png" alt="" class="MainVisual__img">
+                </div>
                 <div class="MainVisual__detail">
                     <h2 class="MainVisual__title">心地よいWordPressテーマ</h2>
-                    <p class="MainVisual__sentence">SANGOはユーザーフレンドリーを追求したWordPressテーマです。<br>
-                        Googleのマテリアルデザインを大部分で採用。内部SEOも最適化さ<br>
-                        れています。</p>
+                    <p class="MainVisual__sentence">SANGOはユーザーフレンドリーを追求したWordPressテーマです。
+                        Googleのマテリアルデザインを大部分で採用。内部SEOも最適化されています。</p>
                     <a href="#" class="btn">
                         <i class="fas fa-caret-right"></i>
                         特徴を見る
@@ -71,20 +72,14 @@
         <div class="inner">
             <div class="archive">
                 <div class="change_btn_wrapper">
-                    <ul class="change_btn_bar">
-                        <li class="change_btn_list">
-                            <div class="change_btn">
-                                <i class="fas fa-rocket"></i>
-                                新着記事
-                            </div>
-                        </li>
-                        <li class="change_btn_list">
-                            <div class="change_btn">
-                                <i class="fas fa-bookmark"></i>
-                                おすすめ記事
-                            </div>
-                        </li>
-                    </ul>
+                    <div class="change_btn">
+                        <i class="fas fa-rocket"></i>
+                        新着記事
+                    </div>
+                    <div class="change_btn">
+                        <i class="fas fa-bookmark"></i>
+                        おすすめ記事
+                    </div>
                 </div>
                 <div class="archive__list">
                     <article class="archive__item">
@@ -220,8 +215,9 @@
                 </form>
 
                 <div class="profile">
-                    <img src="img/profile.png" alt="" class="profile__image">
-                    <img src="" alt="">
+                    <p class="profile__background">
+                        <img src="img/profile.png" alt="" class="profile__image">
+                    </p>
                     <div class="profile__sentence">
                         <div class="profile__pictureLabel">
                             <img src="img/catnose.png" alt="" class="profile__picture">
