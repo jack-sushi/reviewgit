@@ -374,11 +374,6 @@ ol {
           transform: translateY(-4px);
 }
 
-.archive__image {
-  width: 355px;
-  height: 205px;
-}
-
 .archive__detail {
   background-color: #FFFFFF;
   padding-left: 13px;
@@ -501,6 +496,17 @@ ol {
   .change_btn_wrapper {
     width: 94%;
   }
+}
+
+.new_item {
+  color: #FFFFFF;
+  background: linear-gradient(45deg, #bdb9ff, #67b8ff);
+  border-right: 1px solid #eaeaea;
+}
+
+.pickup_item {
+  color: #A7A7A7;
+  background-color: #FFFFFF;
 }
 
 .MainVisual {
