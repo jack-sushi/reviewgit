@@ -1095,6 +1095,7 @@ ol {
     width: 82%;
     height: 28%;
     top: 11%;
+    margin-top: 24px;
   }
 }
 
@@ -1116,6 +1117,13 @@ ol {
   padding-left: 15%;
 }
 
+@media screen and (max-width: 414px) {
+  .lodge--label {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .lodge--label {
     padding-right: 0px;
@@ -1133,7 +1141,13 @@ ol {
   .lodge__MainImage {
     width: 100%;
     position: relative;
-    right: 0;
+    left: 12%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .lodge__MainImage {
+    left: 0;
   }
 }
 
@@ -1232,6 +1246,35 @@ ol {
   position: relative;
 }
 
+.lodge__bar {
+  position: relative;
+  left: 20%;
+}
+
+@media screen and (max-width: 940px) {
+  .lodge__bar {
+    display: none;
+  }
+}
+
+.lodge__barSecond {
+  display: none;
+}
+
+@media screen and (max-width: 940px) {
+  .lodge__barSecond {
+    display: inline-block;
+    position: relative;
+    left: 18%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .lodge__barSecond {
+    left: 39%;
+  }
+}
+
 .food {
   background-color: #fff;
   position: relative;
@@ -1312,6 +1355,19 @@ ol {
     height: 28%;
     top: 11%;
     background-color: #fff;
+    margin-top: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .food__detail {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .food__detail {
+    margin-top: 24px;
   }
 }
 
@@ -1334,6 +1390,13 @@ ol {
   padding-left: 15%;
 }
 
+@media screen and (max-width: 414px) {
+  .food--label {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .food--label {
     padding-right: 0px;
@@ -1351,6 +1414,13 @@ ol {
   .food__MainImage {
     width: 100%;
     position: relative;
+    left: 12%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .food__MainImage {
+    left: 0;
   }
 }
 
@@ -1449,6 +1519,35 @@ ol {
   position: relative;
 }
 
+.food__bar {
+  position: relative;
+  left: 13%;
+}
+
+@media screen and (max-width: 1090px) {
+  .food__bar {
+    display: none;
+  }
+}
+
+.food__barSecond {
+  display: none;
+}
+
+@media screen and (max-width: 1090px) {
+  .food__barSecond {
+    display: inline-block;
+    position: relative;
+    left: 16%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .food__barSecond {
+    left: 40%;
+  }
+}
+
 .program {
   background-color: #F8F8F8;
   position: relative;
@@ -1516,6 +1615,12 @@ ol {
   }
 }
 
+@media screen and (max-width: 414px) {
+  .program__title {
+    font-size: 18px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .program__title {
     font-size: 30px;
@@ -1544,6 +1649,25 @@ ol {
     width: 82%;
     height: 28%;
     top: 11%;
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .program__detail {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .program__detail {
+    margin-top: 24px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .program__detail {
+    margin-top: 32px;
   }
 }
 
@@ -1554,7 +1678,7 @@ ol {
     left: 23%;
     padding-right: 44px;
     z-index: 1;
-    margin-top: 30px;
+    margin-top: 50px;
     background-color: #fff;
   }
 }
@@ -1565,6 +1689,13 @@ ol {
   flex-wrap: wrap;
   padding-right: 3%;
   padding-left: 15%;
+}
+
+@media screen and (max-width: 414px) {
+  .program--label {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -1585,6 +1716,13 @@ ol {
   .program__MainImage {
     width: 100%;
     position: relative;
+    left: 14%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .program__MainImage {
+    left: 0;
   }
 }
 
@@ -1681,6 +1819,41 @@ ol {
 
 .program__btn--label {
   position: relative;
+}
+
+.program__bar {
+  position: relative;
+  left: 14%;
+}
+
+@media screen and (max-width: 1199px) {
+  .program__bar {
+    left: 10%;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .program__bar {
+    display: none;
+  }
+}
+
+.program__barSecond {
+  display: none;
+}
+
+@media screen and (max-width: 1090px) {
+  .program__barSecond {
+    display: inline-block;
+    position: relative;
+    left: 19%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .program__barSecond {
+    left: 36%;
+  }
 }
 
 .message {
